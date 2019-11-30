@@ -10,6 +10,10 @@ The main goal of **Seam Carving** is to find *seam* (optimal 8-connected path of
 
 ![widen_seams](out/fig8_w_seams.png) ![widen](out/fig8_wider.png)
 
+
+
+For more detailed explanation of the reproduction results as well as assumptions made in this project see the [**Report**](report.pdf).
+
 ## Project structure
  - *helpers.py* - includes implementations of seam carving and various other helper functions  
  - *main.py* - script generating output files requires for the project
