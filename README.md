@@ -1,4 +1,4 @@
-# Research Project
+# Seam Carving
 
 ## Synopsis
 
