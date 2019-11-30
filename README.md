@@ -1,5 +1,15 @@
 # Research Project
 
+## Synopsis
+
+In this project I'm applying computational photography technique **Seam Carving** to resize original image without losing or distorting relevant information as much as possible. This technique was first introduced in [Seam Carving for Content-Aware Image Resizing](http://graphics.cs.cmu.edu/courses/15-463/2012_fall/hw/proj3-seamcarving/imret.pdf) (Shai Avidan, Ariel Shamir) and this project is trying to reproduce results from the original paper as close as possible. 
+
+The main goal of **Seam Carving** is to find *seam* (optimal 8-connected path of pixels on a single image from top to bottom, or left to right, where optimality is defined by an image energy function) that can be removed or added to the image to change its size without adding significant distortions at the same time.
+
+![orig](images/fig5.png) ![narrow](out/fig5_rm_final.png)
+
+![widen_seams](out/fig8_w_seams.png) ![widen](out/fig8_wider.png)
+
 ## Project structure
  - *helpers.py* - includes implementations of seam carving and various other helper functions  
  - *main.py* - script generating output files requires for the project
