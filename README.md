@@ -6,7 +6,7 @@ In this project I'm applying computational photography technique **Seam Carving*
 
 The main goal of **Seam Carving** is to find *seam* (optimal 8-connected path of pixels on a single image from top to bottom, or left to right, where optimality is defined by an image energy function) that can be removed or added to the image to change its size without adding significant distortions at the same time.
 
-![orig](images/fig5.png) ![narrow](out/fig5_rm_final.png)
+![orig](images/fig5_s.png) ![narrow](out/fig5_rm_final_s.png)
 
 ![widen_seams](out/fig8_w_seams.png) ![widen](out/fig8_wider.png)
 
